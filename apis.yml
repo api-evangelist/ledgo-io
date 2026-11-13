@@ -1,0 +1,28 @@
+aid: ledgo-io
+name: Ledgo CRM
+description: 'Ledgo CRM is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/ledgo-io/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-13'
+modified: '2026-11-13'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://ledgo.io
+- type: Documentation
+  url: https://ledgo.io/developers
+x-submission-notes: CRM REST API (contacts, companies, leads, deals, tasks, quotes, invoices, conversations),
+  API-key auth, webhooks; OpenAPI 3.1 27 paths at /api/v1/openapi.json
+x-submission-probe: root 200, invented 200 (SPA shell), /developers 200, openapi.json 200 (3.1.0, 27 paths)
