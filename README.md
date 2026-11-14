@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ledgo CRM is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://ledgo.io
+Ledgo CRM provides an AI‑powered customer relationship management platform focused on WhatsApp, website chat, and other messaging channels. It offers contact, lead, deal, task, quote, invoice, and conversation management with API‑key authentication and webhooks. The service includes backup, role‑based access, and integrates with WhatsApp Business numbers, enabling businesses to handle inquiries, send quotes, and track sales pipelines from a unified interface. A free 14‑day trial is available without a credit card.
+
+**Areas:** CRM · AI · Messaging · Sales · Automation · SaaS
+
+## Ledgo CRM on APIs.io
+
+Everything profiled for Ledgo CRM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ledgo-io/](https://apis.io/providers/ledgo-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Ledgo CRM Companies API](https://apis.io/apis/ledgo-io/ledgo-io-companies-api/) — Organisations contacts belong to.
+- [Ledgo CRM Contacts API](https://apis.io/apis/ledgo-io/ledgo-io-contacts-api/) — People. A contact can have several phone numbers and email addresses.
+- [Ledgo CRM Conversations API](https://apis.io/apis/ledgo-io/ledgo-io-conversations-api/) — The shared inbox: WhatsApp, chat and other channels. Reply as the key's owner.
+- [Ledgo CRM Deals API](https://apis.io/apis/ledgo-io/ledgo-io-deals-api/) — Qualified opportunities with a value and an expected close date.
+- [Ledgo CRM Leads API](https://apis.io/apis/ledgo-io/ledgo-io-leads-api/) — Enquiries, in a pipeline of stages. Stage rules (a required follow-up or amount) apply through the API as in the app.
+- [Ledgo CRM Quotes and invoices API](https://apis.io/apis/ledgo-io/ledgo-io-quotes-and-invoices-api/) — Read access to quotes and invoices with their lines, totals and status.
+- [Ledgo CRM Tasks API](https://apis.io/apis/ledgo-io/ledgo-io-tasks-api/) — To-dos with a due time and an assignee, linked to records.
+- [Ledgo CRM Workspace API](https://apis.io/apis/ledgo-io/ledgo-io-workspace-api/) — Who the key acts as, the team, pipelines and custom fields. Use these ids in the other calls.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Ledgo Io Webhooks](https://apis.io/asyncapis/ledgo-io/ledgo-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ledgo CRM Agentic Access](https://apis.io/agentic-access/ledgo-io/ledgo-io-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ledgo Io Context](https://apis.io/jsonld/ledgo-io/ledgo-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ledgo CRM API Rules](https://apis.io/rules/ledgo-io/ledgo-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ledgo CRM Authentication](https://apis.io/security/ledgo-io/ledgo-io-authentication/)
+- [Ledgo CRM Domain Security](https://apis.io/security/ledgo-io/ledgo-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ledgo CRM Plans Pricing](https://apis.io/plans/ledgo-io/ledgo-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ledgo.io)
+- [Documentation](https://ledgo.io/developers)
+- [Getting started](https://ledgo.io/crm-for/accounting-firms)
+- [Pricing](https://ledgo.io/pricing)
+- [Support](https://ledgo.io/support)
+- [Terms of service](https://ledgo.io/terms)
+- [Privacy policy](https://ledgo.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.7** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ledgo-io/](https://apis.io/providers/ledgo-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ledgo CRM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ledgo-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
